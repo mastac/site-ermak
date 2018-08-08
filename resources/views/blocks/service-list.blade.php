@@ -2,7 +2,7 @@
 <div class="container" id="service-list">
     <div class="row">
         <div class="col-sm">
-            <a href="/ops">
+            <a href="/ops.html">
                 <h3>Пожарная безопасность</h3>
                 <div>
                     <img src="images/serv_pic2.jpg" alt="">
@@ -13,7 +13,7 @@
             </a>
         </div>
         <div class="col-sm">
-            <a href="/video">
+            <a href="/video.html">
                 <h3>СИСТЕМЫ ВИДЕОНАБЛЮДЕНИЯ</h3>
                 <div>
                     <img src="images/serv_pic1.jpg" alt="">
@@ -24,7 +24,7 @@
             </a>
         </div>
         <div class="col-sm">
-            <a href="/skud">
+            <a href="/skud.html">
                 <h3>КОНТРОЛЬ ДОСТУПА</h3>
                 <div>
                     <img src="images/serv_pic5.jpg" alt="">
@@ -35,7 +35,7 @@
             </a>
         </div>
         <div class="col-sm">
-            <a href="/audit">
+            <a href="/audit.html">
                 <h3>Аудит безопасности</h3>
                 <div>
                     <img src="images/serv_pic6.jpg" alt="">
@@ -49,7 +49,7 @@
 
     <div class="row" style="margin-top:50px;">
         <div class="col-sm">
-            <a href="/to">
+            <a href="/to.html">
                 <h3>Техническое обслуживание</h3>
                 <div>
                     <img src="images/serv_pic7.jpg" alt="">
@@ -60,7 +60,7 @@
             </a>
         </div>
         <div class="col-sm">
-            <a href="/elektrowork">
+            <a href="/elektrowork.html">
                 <h3>Электромонтажные работы</h3>
                 <div>
                     <img src="images/serv_pic8.jpg" alt="">
@@ -82,7 +82,7 @@
             {{--</a>--}}
         {{--</div>--}}
         <div class="col-sm">
-            <a href="/aupt">
+            <a href="/aupt.html">
                 <h3>Автоматическое пожаротушения</h3>
                 <div>
                     <img src="images/serv_pic9.jpeg" alt="">
@@ -93,7 +93,7 @@
             </a>
         </div>
         <div class="col-sm">
-            <a href="/heatcount">
+            <a href="/heatcount.html">
                 <h3>Теплопотребление</h3>
                 <div>
                     <img src="images/serv_pic10.jpg" alt="">

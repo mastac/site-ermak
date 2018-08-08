@@ -28,7 +28,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-8 col-xs-8">
-                    <a href="/" rel="home">
+                    <a href="/index.html" rel="home">
                         <img src="images/logo2.png" alt="Ермак: Системы безопастности" style="height:100px">
                     </a>
                 </div>
@@ -51,16 +51,16 @@
                 <div class="col-md-12">
                     <div class="primary-menu">
                         <ul id="primary-menu" class="menu">
-                            <li class="menu-item"><a href="/">
+                            <li class="menu-item"><a href="/index.html">
                                     <span data-hover="Главная">Главная</span>
                                 </a></li>
-                            <li class="menu-item"><a href="/partners">
+                            <li class="menu-item"><a href="/partners.html">
                                     <span data-hover="Партнеры">Партнеры</span>
                                 </a></li>
-                            <li class="menu-item"><a href="/service">
+                            <li class="menu-item"><a href="/service.html">
                                     <span data-hover="Услуги и цены">Услуги и цены</span>
                                 </a></li>
-                            <li class="menu-item"><a href="/contacts">
+                            <li class="menu-item"><a href="/contacts.html">
                                     <span data-hover="Контакты">Контакты</span>
                                 </a></li>
                         </ul>
