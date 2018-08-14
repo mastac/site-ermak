@@ -1,31 +1,22 @@
 <?php
 
-// Pear Mail Library
-require_once "/home/master/pear/share/pear/Mail.php";
+$name = $_POST['name'];
+$phone = $_POST['phone'];
+$message = $_POST['description'];
 
-$from = '<mastac777@gmail.com>';
-$to = '<drobotov@c-west.ru>';
-$subject = 'Hi!';
-$body = "Hi,\n\nHow are you?";
+if (!empty($phone)) {
 
-$headers = array(
-    'From' => $from,
-    'To' => $to,
-    'Subject' => $subject
-);
+    $result = mail("ooo_emailomsk@mail.ru", "Ермак: Сообщение с сайта",
+        'Имя: ' . $name . "\r\n" .
+        'Телефон: ' . $phone . "\r\n" .
+        'Сообщение: ' . $message . "\r\n",
+        "From: Сайт Ермак <info@ooo-ermakomsk.ru>\r\n"
+        . "Reply-To: Сайт Ермак <info@ooo-ermakomsk.ru>\r\n"
+        . "X-Mailer: PHP/" . phpversion());
 
-$smtp = Mail::factory('smtp', array(
-    'host' => 'ssl://smtp.gmail.com',
-    'port' => '465',
-    'auth' => true,
-    'username' => 'drobotoff@gmail.com',
-    'password' => 'xxxxxx'
-));
+    if ($result) echo json_encode(['status' => 'success']);
+    else echo json_encode(['status' => 'fail']);
 
-$mail = $smtp->send($to, $headers, $body);
-
-if (PEAR::isError($mail)) {
-    echo('<p>' . $mail->getMessage() . '</p>');
 } else {
-    echo('<p>Message successfully sent!</p>');
+    echo json_encode(['status' => 'fail']);
 }

@@ -1,6 +1,12 @@
 
 @extends('layouts.app')
 
+@section('title', 'Системы пожаротушения в Омске | ЕРМАК')
+
+@section('keywords', 'омск, услуги, пожаротушения, автоматическое, пожар')
+
+@section('description', 'Любые работа связаные с системами пожаротушения в Омске')
+
 @section('content')
 
     <div class="big-title">
@@ -17,14 +23,14 @@
         <div class="row">
             <div class="col-3">
                 <img src="images/aupt1.jpg" alt="" style="width:100%">
-                <p style="text-align: center;"><strong>Дренчерная система пожаротушения</strong></p>
+                <p style="text-align: center;"><strong>Пенное пожаротушение</strong></p>
             </div>
             <div class="col-3">
                 <img src="images/aupt2.png" alt="" style="width:100%">
                 <p style="text-align: center;"><strong>Система пожаротушения тонкораспыленной водой</strong></p>
             </div>
             <div class="col-3">
-                <img src="images/aupt3.jpg" alt="" style="width:100%">
+                <img src="images/aupt9.jpg" alt="" style="width:100%">
                 <p style="text-align: center;"><strong>Аэрозольное пожаротушение</strong></p>
             </div>
             <div class="col-3">
@@ -34,21 +40,25 @@
         </div>
 
         <div class="row" class="row" style="margin-bottom: 50px;">
+            {{--<div class="col-3">--}}
+                {{--<img src="images/aupt5.jpg" alt="" style="width:100%">--}}
+                {{--<p style="text-align: center;"><strong>Водяное пожаротушение</strong></p>--}}
+            {{--</div>--}}
             <div class="col-3">
-                <img src="images/aupt5.jpg" alt="" style="width:100%">
-                <p style="text-align: center;"><strong>Водяное пожаротушение</strong></p>
-            </div>
-            <div class="col-3">
-                <img src="images/aupt6.jpg" alt="" style="width:100%">
+                <img src="images/aupt10.jpg" alt="" style="width: 255px;height: 173px;">
                 <p style="text-align: center;"><strong>Система газового пожаротушения</strong></p>
             </div>
             <div class="col-3">
                 <img src="images/aupt7.jpg" alt="" style="width:100%">
-                <p style="text-align: center;"><strong>Система пожаротушения тонкораспыленной водой</strong></p>
+                <p style="text-align: center;"><strong>Внутрений пожарный водопровод</strong></p>
             </div>
             <div class="col-3">
                 <img src="images/aupt8.png" alt="" style="width:100%">
                 <p style="text-align: center;"><strong>Спринклерная система пожаротушения</strong></p>
+            </div>
+            <div class="col-3">
+                <img src="images/aupt11.jpg" alt="" style="width: 255px;height: 173px;">
+                <p style="text-align: center;"><strong>Дренчерная система пожаротушения</strong></p>
             </div>
         </div>
 

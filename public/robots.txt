@@ -1,2 +1,28 @@
+User-agent: Yandex
+
+Disallow: /*_openstat
+Disallow: /*from=adwords
+Disallow: /*gclid=
+Disallow: /*utm_source=
+Disallow: /*?*
+Clean-param: utm_campaign&utm_medium&utm_source&utm_term
+
+Host: ooo-ermakomsk.ru
+
+User-agent: Googlebot
+
+Disallow: /*_openstat
+Disallow: /*from=adwords
+Disallow: /*gclid=
+Disallow: /*utm_source=
+Disallow: /*?*
+
 User-agent: *
-Disallow:
+
+Disallow: /*_openstat
+Disallow: /*from=adwords
+Disallow: /*gclid=
+Disallow: /*?*
+Disallow: /*utm_source=
+
+Sitemap: http://ooo-ermakomsk.ru/sitemap.xml

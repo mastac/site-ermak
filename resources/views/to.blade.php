@@ -1,6 +1,12 @@
 
 @extends('layouts.app')
 
+@section('title', 'Техническое обслуживание охранно-пожарных систем в Омске | ЕРМАК')
+
+@section('keywords', 'обслуживание, омск, охранных, пожарных, систем')
+
+@section('description', 'Техническое обслуживание охранно-пожарных систем в Омске')
+
 @section('content')
 
     <div class="big-title">

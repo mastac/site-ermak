@@ -1,6 +1,12 @@
 
 @extends('layouts.app')
 
+@section('title', 'Система Контроля и Управления Доступом в Омске | ЕРМАК')
+
+@section('keywords', 'контроль, управление, доступ, скуд, омск, турникеты, шлагбаумы')
+
+@section('description', 'Монтаж и установка система контроля доступом СКУД в Омске')
+
 @section('content')
 
     <div class="big-title">
@@ -35,10 +41,24 @@
 
             </div>
             <div class="col-6">
-                <img src="images/skud1.jpg" alt="Система Контроля и Управления Доступом (СКУД)" style="width:100%">
+
+                <div>
+                    <img src="images/skud1.jpg" alt="Система Контроля и Управления Доступом (СКУД)" style="width:100%">
+                </div>
+
             </div>
         </div>
 
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col-6" style="text-align: center;">
+                <h2>Шлагбаумы</h2>
+                <img src="images/skud2.jpg" alt="Система Контроля и Управления Доступом (СКУД) - Шлакбаум" style="width:100%">
+            </div>
+            <div class="col-6" style="text-align: center;">
+                <h2>Турникеты</h2>
+                <img src="images/skud3.jpg" alt="Система Контроля и Управления Доступом (СКУД) - Турникет" style="height:366px">
+            </div>
+        </div>
 
     </div>
 

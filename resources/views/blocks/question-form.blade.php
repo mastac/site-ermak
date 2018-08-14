@@ -4,16 +4,16 @@
 <div id="form-question">
     <form action="" method="post">
         <fieldset>
-            <input class="fname" type="text" name="name" placeholder="Ваше имя" value="">
+            <input class="fname" type="text" name="name" id="qname" placeholder="Ваше имя" value="">
         </fieldset>
         <fieldset>
-            <input class="fphone" type="text" name="phone" placeholder="Ваше телефон" value="">
+            <input class="fphone" type="text" name="phone" id="qphone" placeholder="Ваше телефон" value="">
         </fieldset>
         <fieldset>
-            <textarea class="fquestion" placeholder="Пишите здесь" name="question"></textarea>
+            <textarea class="fquestion" placeholder="Пишите здесь" name="question" id="qquestion"></textarea>
         </fieldset>
         <fieldset>
-            <input class="fsubmit" type="button" value="Отправить">
+            <input class="fsubmit" type="button" value="Отправить" id="send-question">
         </fieldset>
     </form>
 </div>

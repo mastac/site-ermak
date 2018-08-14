@@ -18,7 +18,7 @@
                 <div>
                     <img src="images/serv_pic1.jpg" alt="">
                     <div>
-                        Профессиональный подбор, проектирование и монтаж систем видеонаблюдения
+                        Монтаж систем видеонаблюдения
                     </div>
                 </div>
             </a>
@@ -35,16 +35,27 @@
             </a>
         </div>
         <div class="col-sm">
-            <a href="/audit.html">
-                <h3>Аудит безопасности</h3>
+            <a href="/conditioner.html">
+                <h3>Кондиционирование</h3>
                 <div>
-                    <img src="images/serv_pic6.jpg" alt="">
+                    <img src="images/serv_pic11.jpg" alt="">
                     <div>
-                        Экспертная оценка текущего состояния охранно-пожарной безопасности объектов
+                        Установка кондиционеров в квартирах и домах
                     </div>
                 </div>
             </a>
         </div>
+        {{--<div class="col-sm">--}}
+            {{--<a href="/audit.html">--}}
+                {{--<h3>Аудит безопасности</h3>--}}
+                {{--<div>--}}
+                    {{--<img src="images/serv_pic6.jpg" alt="">--}}
+                    {{--<div>--}}
+                        {{--Экспертная оценка текущего состояния охранно-пожарной безопасности объектов--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</a>--}}
+        {{--</div>--}}
     </div>
 
     <div class="row" style="margin-top:50px;">
@@ -63,9 +74,9 @@
             <a href="/elektrowork.html">
                 <h3>Электромонтажные работы</h3>
                 <div>
-                    <img src="images/serv_pic8.jpg" alt="">
+                    <img src="images/serv_pic12.jpg" alt="">
                     <div>
-
+                        Услуги электрика
                     </div>
                 </div>
             </a>

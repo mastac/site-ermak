@@ -1,6 +1,12 @@
 
 @extends('layouts.app')
 
+@section('title', 'Кондиционирование в Омске | ЕРМАК')
+
+@section('keywords', 'кондиционирование, омск, установка, монтаж')
+
+@section('description', 'Монтаж и установка кондиционеров в Омске')
+
 @section('content')
 
     <div class="big-title">

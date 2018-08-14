@@ -1,6 +1,12 @@
 
 @extends('layouts.app')
 
+@section('title', 'Наши услуги и цены Омске | ЕРМАК')
+
+@section('keywords', 'омск, услуги, скидки, цены')
+
+@section('description', 'Работаем с бюджетными организациями на особых условия в Омске')
+
 @section('content')
 
     <div class="big-title">

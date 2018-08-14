@@ -1,6 +1,12 @@
 
 @extends('layouts.app')
 
+@section('title', 'Пожарная безопасность в Омске | ЕРМАК')
+
+@section('keywords', 'пожарная безопасность, лицензия, омск')
+
+@section('description', 'Лицензионная деательность по установке пожарной безопастности')
+
 @section('content')
 
     <div class="big-title">

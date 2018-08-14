@@ -26,4 +26,5 @@ mix.copy('resources/assets/favicon.ico', './public/images/favicon.ico');
 mix.copy('resources/assets/images/fav/*', './public/images/fav/');
 
 mix.copy('resources/assets/images/partners/*', './public/images/partners/');
+mix.copy('resources/assets/sitemap.xml', './public/sitemap.xml');
 
