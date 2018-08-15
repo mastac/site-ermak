@@ -62,19 +62,19 @@
 
     <header id="site-header">
         <div class="container">
-            <div class="row">
+            <div class="row match-bg">
                 <div class="col-md-3 col-sm-8 col-xs-8">
                     <a href="/index.html" rel="home">
                         <img src="images/logo2.png" alt="Ермак: Системы безопастности" style="height:100px">
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-4 col-xs-4" style="text-align: right; font-size: 1.5em; padding: 30px 0;">
+                <div class="col-md-3 col-sm-4 col-xs-4" style="text-align: center; font-size: 1.3em; padding: 30px 0;">
                     <a href="mailto:ooo_emailomsk@mail.ru">ooo_emailomsk@mail.ru</a>
                 </div>
-                <div class="col-md-3 col-sm-4 col-xs-4" style="text-align: right; font-size: 1.5em; padding: 30px 0;">
+                <div class="col-md-3 col-sm-4 col-xs-4" style="text-align: center; font-size: 1.3em; padding: 30px 0;">
                     +7 983 623 3677
                 </div>
-                <div class="col-md-3 col-sm-4 col-xs-4" style="text-align: right; font-size: 1.5em; padding: 30px 0;">
+                <div class="col-md-3 col-sm-4 col-xs-4" style="text-align: center; font-size: 1.3em; padding: 30px 0;">
                     +7 900 675 1882
                 </div>
             </div>

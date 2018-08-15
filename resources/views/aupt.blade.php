@@ -31,7 +31,7 @@
             </div>
             <div class="col-3">
                 <img src="images/aupt9.jpg" alt="" style="width:100%">
-                <p style="text-align: center;"><strong>Аэрозольное пожаротушение</strong></p>
+                <p style="text-align: center;"><strong>Порошковое пожаротушение</strong></p>
             </div>
             <div class="col-3">
                 <img src="images/aupt4.jpg" alt="" style="width:100%">
@@ -46,7 +46,7 @@
             {{--</div>--}}
             <div class="col-3">
                 <img src="images/aupt10.jpg" alt="" style="width: 255px;height: 173px;">
-                <p style="text-align: center;"><strong>Система газового пожаротушения</strong></p>
+                <p style="text-align: center;"><strong>Аэрозольное пожаротушение</strong></p>
             </div>
             <div class="col-3">
                 <img src="images/aupt7.jpg" alt="" style="width:100%">

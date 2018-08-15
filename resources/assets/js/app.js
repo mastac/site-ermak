@@ -29,10 +29,8 @@ $('#send-question').click(function(){
         'question': $('#qquestion').val(),
     })
     .done(function(data) {
-        if (data.status && data.status == 'success')
-            $('#form-question').html("<div style='text-align: center; padding: 100px; font-size: 1.2em; color: green; font-weight: 500;'>Ваше сообшение отправлено</div>");
-        else
-            $('#form-question').html("<div style='text-align: center; padding: 100px; font-size: 1.2em; color: red; font-weight: 500;'>Ваше сообшение не отправлено</div>");
+        console.log(data);
+        $('#form-question').html("<div style='text-align: center; padding: 100px; font-size: 1.2em; color: green; font-weight: 500;'>Ваше сообшение отправлено</div>");
     })
     .fail(function() {
         $('#form-question').html("<div style='text-align: center; padding: 100px; font-size: 1.2em; color: red; font-weight: 500;'>Ваше сообшение не отправлено</div>");

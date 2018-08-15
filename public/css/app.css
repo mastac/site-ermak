@@ -10862,3 +10862,8 @@ div.reasons ul li:hover div .black {
   font-weight: 500;
 }
 
+.match-bg {
+  background: url(/images/match3.png?e9103f2e22fac1fdfd432c911b90873f) no-repeat right;
+  background-size: 65px;
+}
+

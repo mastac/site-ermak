@@ -6,7 +6,7 @@ $message = $_POST['description'];
 
 if (!empty($phone)) {
 
-    $result = mail("ooo_emailomsk@mail.ru", "Ермак: Сообщение с сайта",
+    $result = mail("ooo_ermakomsk@mail.ru", "Ермак: Сообщение с сайта",
         'Имя: ' . $name . "\r\n" .
         'Телефон: ' . $phone . "\r\n" .
         'Сообщение: ' . $message . "\r\n",
